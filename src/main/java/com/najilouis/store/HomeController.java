@@ -9,4 +9,9 @@ public class HomeController {
     public String index() {
         return "index.html";
     }
+
+    @RequestMapping("/second")
+    public String secondPage() {
+        return "second.html";
+    }
 }
